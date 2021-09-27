@@ -12,6 +12,11 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		6B26E38F9C494D2AA1592280 /* BentonSans-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 066298542177479FA092E8CC /* BentonSans-Black.otf */; };
+		A53AD4EAF84A489DA1F1B2CB /* BentonSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A4F247E3FBE6413CBBFB096A /* BentonSans-Bold.otf */; };
+		F5F08C308CEE4D70AFED38BB /* BentonSans-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = D6909C2140C94D97BCDAA4C8 /* BentonSans-Book.otf */; };
+		E156CBC286FC4CA29097B8D8 /* BentonSans-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2E6749ECF1D4DA38AE5CD6B /* BentonSans-Medium.otf */; };
+		E443850A5D694CEEAF3B3739 /* BentonSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E6135F696483AB1D468D9 /* BentonSans-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AwesomeProject/main.m; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AwesomeProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		066298542177479FA092E8CC /* BentonSans-Black.otf */ = {isa = PBXFileReference; name = "BentonSans-Black.otf"; path = "../assets/fonts/BentonSans-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A4F247E3FBE6413CBBFB096A /* BentonSans-Bold.otf */ = {isa = PBXFileReference; name = "BentonSans-Bold.otf"; path = "../assets/fonts/BentonSans-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D6909C2140C94D97BCDAA4C8 /* BentonSans-Book.otf */ = {isa = PBXFileReference; name = "BentonSans-Book.otf"; path = "../assets/fonts/BentonSans-Book.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E2E6749ECF1D4DA38AE5CD6B /* BentonSans-Medium.otf */ = {isa = PBXFileReference; name = "BentonSans-Medium.otf"; path = "../assets/fonts/BentonSans-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2E0E6135F696483AB1D468D9 /* BentonSans-Regular.otf */ = {isa = PBXFileReference; name = "BentonSans-Regular.otf"; path = "../assets/fonts/BentonSans-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,7 @@
 				00E356EF1AD99517003FC87E /* AwesomeProjectTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				4198633F8C7940578EB727D7 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -123,6 +134,19 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		4198633F8C7940578EB727D7 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				066298542177479FA092E8CC /* BentonSans-Black.otf */,
+				A4F247E3FBE6413CBBFB096A /* BentonSans-Bold.otf */,
+				D6909C2140C94D97BCDAA4C8 /* BentonSans-Book.otf */,
+				E2E6749ECF1D4DA38AE5CD6B /* BentonSans-Medium.otf */,
+				2E0E6135F696483AB1D468D9 /* BentonSans-Regular.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -214,6 +238,11 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				6B26E38F9C494D2AA1592280 /* BentonSans-Black.otf in Resources */,
+				A53AD4EAF84A489DA1F1B2CB /* BentonSans-Bold.otf in Resources */,
+				F5F08C308CEE4D70AFED38BB /* BentonSans-Book.otf in Resources */,
+				E156CBC286FC4CA29097B8D8 /* BentonSans-Medium.otf in Resources */,
+				E443850A5D694CEEAF3B3739 /* BentonSans-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
