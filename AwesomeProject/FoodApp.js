@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< Updated upstream:AwesomeProject/FoodApp.js
 import {
   Alert,
   Image,
@@ -7,11 +8,15 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
+=======
+import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+>>>>>>> Stashed changes:foodSource/components/BaseTutorial.js
 import LinearGradient from 'react-native-linear-gradient';
 
 import {Colors} from './source/configs/colors';
 // import {SplashSCreen} from './source/components/splashScreen';
 
+<<<<<<< Updated upstream:AwesomeProject/FoodApp.js
 const FoodApp = () => {
   return (
     <View style={styles.container}>
@@ -32,6 +37,15 @@ const TutorialFirst = () => {
       />
       <Image source={require('./source/images/Text.png')} />
       <TouchableOpacity onPress={onPressNext}>
+=======
+export const BaseTutorial = props => {
+  return (
+    <View style={styles.items}>
+      {props.photo}
+      <Text style={styles.bigText}>{props.bigText}</Text>
+      <Text style={styles.smallText}>{props.smallText}</Text>
+      <TouchableOpacity onPress={props.onPressNext}>
+>>>>>>> Stashed changes:foodSource/components/BaseTutorial.js
         <LinearGradient
           start={{x: 0.0, y: 0.0}}
           end={{x: 1.0, y: 0.0}}

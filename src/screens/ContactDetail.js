@@ -15,7 +15,6 @@ import {ShareInfo} from '../components/ShareInfo';
 
 export const ContactDetail = ({route, navigation}) => {
   const {contact} = route.params;
-  console.log(contact);
   const onPressLeft = useCallback(() => {
     navigation.goBack();
   }, [navigation]);
