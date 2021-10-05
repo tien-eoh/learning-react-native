@@ -1,9 +1,12 @@
-import React from 'react';
+import React, {useCallback} from 'react';
 import {Image, StyleSheet, View} from 'react-native';
 
 import {BaseTutorial} from '../../components/BaseTutorial';
 
-export const TutorialFirst = () => {
+export const TutorialFirst = ({navigation}) => {
+  const onPressNext = useCallback(() => {
+    navigation.push('TutorialSecond');
+  }, [navigation]);
   return (
     <View style={styles.container}>
       <BaseTutorial
@@ -17,6 +20,7 @@ export const TutorialFirst = () => {
         smallText={
           'Here You Can find a chef or dish for every\ntaste and color. Enjoy!'
         }
+        onPressNext={onPressNext}
       />
     </View>
   );

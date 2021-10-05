@@ -1,20 +1,18 @@
 import React from 'react';
-import {Alert, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
-import LinearGradient from 'react-native-linear-gradient';
 
+import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+
+import LinearGradient from 'react-native-linear-gradient';
 import {Colors} from '../configs/colors';
 import {Fonts} from '../configs/fonts';
 
 export const BaseTutorial = props => {
-  const onPressNext = () => {
-    Alert.alert('hihi');
-  };
   return (
     <View style={styles.items}>
       {props.photo}
       <Text style={styles.bigText}>{props.bigText}</Text>
       <Text style={styles.smallText}>{props.smallText}</Text>
-      <TouchableOpacity onPress={onPressNext}>
+      <TouchableOpacity onPress={props.onPressNext}>
         <LinearGradient
           start={{x: 0.0, y: 0.0}}
           end={{x: 1.0, y: 0.0}}

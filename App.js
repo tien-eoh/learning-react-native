@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet} from 'react-native';
+// import {StyleSheet} from 'react-native';
 import {ContactDetail} from './src/screens/ContactDetail';
 import {ContactList} from './src/screens/ContactList';
 import {NavigationContainer} from '@react-navigation/native';
@@ -26,15 +26,15 @@ const App = () => {
   );
 };
 
-const styles = StyleSheet.create({
-  bottomContainer: {
-    paddingHorizontal: 16,
-    paddingTop: 8,
-  },
-  viewSpace: {
-    backgroundColor: '#F7F7FC',
-    height: 32,
-  },
-});
+// const styles = StyleSheet.create({
+//   bottomContainer: {
+//     paddingHorizontal: 16,
+//     paddingTop: 8,
+//   },
+//   viewSpace: {
+//     backgroundColor: '#F7F7FC',
+//     height: 32,
+//   },
+// });
 
 export default App;

@@ -22,10 +22,7 @@ export const ContactList = ({navigation}) => {
         'https://60f4038a3cb0870017a8a0d9.mockapi.io/contact',
       );
       setContacts(response.data);
-      console.log(response);
-    } catch (error) {
-      console.log(error);
-    }
+    } catch (error) {}
   };
   useEffect(() => {
     getContact();
