@@ -1,7 +1,12 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Image, StyleSheet, View} from 'react-native';
 
-export const SplashSCreen = () => {
+export const SplashScreen = ({navigation}) => {
+  useEffect(() => {
+    setTimeout(() => {
+      navigation.push('TutorialFirst');
+    }, 3000);
+  }, [navigation]);
   return (
     <View style={styles.container}>
       <Image
